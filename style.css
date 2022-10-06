@@ -14,7 +14,7 @@
   --cor-body: #141414;
   --cor-formacaotxt: #a3a3a3;
   --cor-header: #bbb7b7;
-  --cor-bodybg: rgb(241, 241, 241);
+  --cor-bodybg: rgb(29, 29, 29);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -33,7 +33,7 @@
     --cor-body: #dcdbdb;
     --cor-formacaotxt: #585757;
     --cor-header: #444242;
-    --cor-bodybg: #000;
+    --cor-bodybg: rgb(29 29 29);
   }
 }
 .experiencia {
