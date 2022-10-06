@@ -1,3 +1,20 @@
+:root {
+  --cor-experienciasb: #e0e0e0;
+  --cor-experienciatxt: #525252;
+  --cor-experienciatxt2: #141414;
+  --cor-empresabg: #f5f5f5;
+  --cor-empresa-ano-texto: #525252;
+  --cor-empresahb: #ffffff;
+  --cor-footer: #000;
+  --cor-footer-texto: #ccc;
+  --cor-footer-contato: #fff;
+  --cor-footer-copy: #8f8f8f;
+  --cor-gradient1: #b6f829;
+  --cor-gradient2: #67dd0a;
+  --cor-body: #141414;
+  --cor-formacaotxt: #a3a3a3;
+  --cor-header: #bbb7b7;
+}
 .experiencia {
   max-width: 1200px;
   padding: 40px 20px;
@@ -6,40 +23,35 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
-
 .experiencia .subtitulo {
-  color: #e0e0e0;
+  color: var(--cor-experienciasb);
 }
-
 .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #525252;
+  color: var(--cor-experienciatxt);
 }
-
 .experiencia-texto strong {
-  color: #141414;
+  color: var(--cor-experienciatxt2);
 }
-
 .empresa {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: var(--cor-empresabg);
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
 }
-
 .empresa::before {
   content: "";
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(var(--cor-gradient1), var(--cor-gradient2));
   position: absolute;
   top: 20px;
   left: -4px;
@@ -51,7 +63,7 @@
   left: -100px;
   text-align: right;
   width: 80px;
-  color: #525252;
+  color: var(--cor-empresa-ano-texto);
   font-size: 0.875rem;
 }
 
@@ -64,7 +76,7 @@
 .empresa-texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: var(--cor-empresa-ano-texto);
 }
 
 .empresa-habilidades {
@@ -78,7 +90,7 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffffff;
+  background: var(--cor-empresahb);
   padding: 5px 10px;
 }
 
@@ -107,7 +119,7 @@
   }
 }
 .footer {
-  background: #000000;
+  background: var(--cor-footer);
 }
 
 .footer-container {
@@ -123,26 +135,26 @@
 .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  color: #cccccc;
+  color: var(--cor-footer-texto);
 }
 
 .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: #ffffff;
+  color: var(--cor-footer-contato);
   margin-bottom: 30px;
   text-decoration: none;
 }
 
 .footer-contato li a {
-  color: #ffffff;
+  color: var(--cor-footer-contato);
 }
 
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
-  color: #8f8f8f;
+  color: var(--cor-footer-copy);
 }
 
 @media (max-width: 800px) {
@@ -157,7 +169,7 @@
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
+  color: var(--cor-body);
 }
 
 h1,
@@ -195,7 +207,7 @@ img {
   }
 }
 .footer {
-  background: #000000;
+  background: var(--cor-footer);
 }
 
 .footer-container {
@@ -211,25 +223,25 @@ img {
 .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  color: #cccccc;
+  color: var(--cor-footer-texto);
 }
 
 .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: #ffffff;
+  color: var(--cor-footer-contato);
   margin-bottom: 30px;
 }
 
 .footer-contato li a {
-  color: #ffffff;
+  color: var(--cor-footer-contato);
 }
 
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
-  color: #8f8f8f;
+  color: var(--cor-footer-copy);
 }
 
 @media (max-width: 800px) {
@@ -242,8 +254,8 @@ img {
   }
 }
 .formacao {
-  background: #141414;
-  color: #ffffff;
+  background: var(--cor-body);
+  color: var(--cor-footer-contato);
 }
 
 .formacao-container {
@@ -268,7 +280,7 @@ img {
 }
 
 .formacao .subtitulo {
-  color: #000000;
+  color: var(--cor-footer);
   max-width: 5ch;
 }
 
@@ -277,11 +289,11 @@ img {
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: var(--cor-formacaotxt);
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: var(--cor-empresahb);
 }
 
 .faculdade-lista {
@@ -293,7 +305,7 @@ img {
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: var(--cor-footer);
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -303,7 +315,7 @@ img {
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: var(--cor-formacaotxt);
   margin-bottom: 10px;
 }
 
@@ -320,14 +332,14 @@ img {
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(var(--cor-gradient1), var(--cor-gradient2));
   position: absolute;
   left: -24px;
 }
 
 .faculdade-instituicao {
   font-size: 1.125rem;
-  color: #a3a3a3;
+  color: var(--cor-formacaotxt);
 }
 
 .cursos {
@@ -337,7 +349,7 @@ img {
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: var(--cor-footer-copy);
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -368,7 +380,7 @@ img {
 }
 
 .formacao-extra span {
-  color: #8f8f8f;
+  color: var(--cor-footer-copy);
 }
 
 .cursos li {
@@ -383,7 +395,7 @@ img {
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    color: var(--cor-empresahb);
   }
   .formacao-texto {
     font-size: 1.25rem;
@@ -396,7 +408,7 @@ img {
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
+  color: var(--cor-body);
 }
 
 h1,
@@ -454,7 +466,7 @@ img {
   line-height: 1.3;
   padding: 10px 20px;
   text-decoration: none;
-  color: #141414;
+  color: var(--cor-body);
   display: block;
 }
 
@@ -465,7 +477,7 @@ img {
     padding: 20px;
   }
   .header a {
-    background: #bbb7b7;
+    background: var(--cor-header);
     border-radius: 4px;
   }
 }
@@ -500,7 +512,7 @@ img {
 
 .introducao p {
   font-size: 1.5rem;
-  color: #525252;
+  color: var(--cor-empresa-ano-texto);
 }
 
 @media (max-width: 1000px) {
