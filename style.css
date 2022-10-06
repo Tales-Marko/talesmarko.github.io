@@ -329,7 +329,7 @@ img {
 
 .faculdade {
   flex: 1;
-  background: var(--cor-footer);
+  background: var(--cor-faculdade);
   padding: 20px;
   border-radius: 4px;
   display: flex;
