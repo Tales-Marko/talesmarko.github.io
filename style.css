@@ -189,6 +189,7 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: var(--cor-body);
+  background-color: rgb(245, 245, 245);
 }
 
 h1,
@@ -428,6 +429,7 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: var(--cor-body);
+  background: rgb(241 241 241);
 }
 
 h1,
