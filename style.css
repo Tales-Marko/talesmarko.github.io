@@ -121,7 +121,7 @@
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color: var(--cor-body);
   }
   .experiencia-texto {
     font-size: 1.25rem;
@@ -431,7 +431,7 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: var(--cor-body);
-  background: rgb(241 241 241);
+  background: var(--cor-bodybg);
 }
 
 h1,
