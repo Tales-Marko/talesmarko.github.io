@@ -339,7 +339,7 @@ img {
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: var(--cor-formacaotxt);
+  color: var(--cor-empresahb);
   margin-bottom: 10px;
 }
 
@@ -363,7 +363,7 @@ img {
 
 .faculdade-instituicao {
   font-size: 1.125rem;
-  color: var(--cor-formacaotxt);
+  color: var(--cor-empresahb);
 }
 
 .cursos {
