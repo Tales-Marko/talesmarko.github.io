@@ -6,7 +6,7 @@
   --cor-empresa-ano-texto: #525252;
   --cor-empresahb: #ffffff;
   --cor-footer: #000;
-  --cor-footer-texto: #ccc;
+  --cor-footer-texto: rgb(230, 230, 230);
   --cor-footer-contato: #fff;
   --cor-footer-copy: #8f8f8f;
   --cor-gradient1: #b6f829;
@@ -20,6 +20,7 @@
   --cor-container: rgb(72, 70, 70);
   --cor-footer: rgb(116, 116, 116);
   --cor-formacao: rgb(41, 41, 41);
+  --cor-contatoli: rgb(216, 216, 216);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,7 +31,7 @@
     --cor-empresa-ano-texto: #b1b1b1;
     --cor-empresahb: #ffffff;
     --cor-footer: rgb(255, 255, 255);
-    --cor-footer-texto: rgb(183, 183, 183);
+    --cor-footer-texto: rgb(230, 230, 230);
     --cor-footer-contato: rgb(0, 0, 0);
     --cor-footer-copy: #848484;
     --cor-gradient1: #b6f829;
@@ -43,7 +44,8 @@
     --cor-naomuitobranco: rgb(190, 190, 190);
     --cor-container: rgb(72, 70, 70);
     --cor-footer: rgb(116, 116, 116);
-    --cor-formacao: rgb(41, 41, 41);
+    --cor-formacao: rgb(37, 37, 37);
+    --cor-contatoli: rgb(31, 31, 31);
   }
 }
 .experiencia {
@@ -175,13 +177,13 @@
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: var(--cor-footer-contato);
+  color: var(--cor-footer-texto);
   margin-bottom: 30px;
   text-decoration: none;
 }
 
 .footer-contato li a {
-  color: var(--cor-footer-contato);
+  color: var(--cor-footer-texto);
 }
 
 .footer-copy {
@@ -265,12 +267,12 @@ img {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: var(--cor-footer-contato);
+  color: var(--cor-footer-texto);
   margin-bottom: 30px;
 }
 
 .footer-contato li a {
-  color: var(--cor-footer-contato);
+  color: var(--cor-footer-texto);
 }
 
 .footer-copy {
