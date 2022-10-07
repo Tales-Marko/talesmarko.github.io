@@ -37,6 +37,7 @@
     --cor-bodybg: rgb(29 29 29);
     --cor-faculdade0: rgb(90, 90, 90);
     --cor-naomuitobranco: rgb(190, 190, 190);
+    --cor-container: rgb(72, 70, 70);
   }
 }
 .experiencia {
@@ -292,6 +293,7 @@ img {
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   position: relative;
+  background-color: var(--cor-container);
 }
 
 .formacao-container::after {
