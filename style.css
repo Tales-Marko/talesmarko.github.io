@@ -192,7 +192,7 @@
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
-    background-color: var(--cor-header);
+    background-color: var(--cor-container);
   }
   .footer-contato li {
     font-size: 1.5rem;
@@ -287,7 +287,7 @@ img {
   }
 }
 .formacao {
-  background: var(--cor-body);
+  background: var(--cor-container);
   color: var(--cor-naomuitobranco);
 }
 
@@ -314,7 +314,7 @@ img {
 }
 
 .formacao .subtitulo {
-  color: var(--cor-naomuitobranco);
+  color: var(--cor-container);
   max-width: 5ch;
 }
 
