@@ -19,6 +19,7 @@
   --cor-naomuitobranco: rgb(190, 190, 190);
   --cor-container: rgb(72, 70, 70);
   --cor-footer: rgb(116, 116, 116);
+  --cor-formacao: rgb(41, 41, 41);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -42,6 +43,7 @@
     --cor-naomuitobranco: rgb(190, 190, 190);
     --cor-container: rgb(72, 70, 70);
     --cor-footer: rgb(116, 116, 116);
+    --cor-formacao: rgb(41, 41, 41);
   }
 }
 .experiencia {
@@ -314,7 +316,7 @@ img {
 }
 
 .formacao .subtitulo {
-  color: var(--cor-container);
+  color: var(--cor-formacao);
   max-width: 5ch;
 }
 
