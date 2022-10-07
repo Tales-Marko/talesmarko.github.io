@@ -47,8 +47,9 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
+
 .experiencia .subtitulo {
-  color: var(--cor-experienciasb);
+  color: var(--cor-naomuitobranco);
 }
 .experiencia-texto {
   font-size: 1.5rem;
@@ -305,7 +306,7 @@ img {
 }
 
 .formacao .subtitulo {
-  color: var(--cor-footer);
+  color: var(--cor-naomuitobranco);
   max-width: 5ch;
 }
 
@@ -420,7 +421,7 @@ img {
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: var(--cor-empresahb);
+    color: var(--cor-naomuitobranco);
   }
   .formacao-texto {
     font-size: 1.25rem;
