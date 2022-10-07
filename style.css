@@ -16,6 +16,9 @@
   --cor-header: #bbb7b7;
   --cor-bodybg: rgb(226, 226, 226);
   --cor-faculdade: #000;
+  --cor-naomuitobranco: rgb(190, 190, 190);
+  --cor-container: rgb(72, 70, 70);
+  --cor-footer: rgb(116, 116, 116);
 }
 @media (prefers-color-scheme: dark) {
   :root {
