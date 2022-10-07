@@ -317,11 +317,11 @@ img {
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: var(--cor-formacaotxt);
+  color: var(--cor-naomuitobranco);
 }
 
 .formacao-texto strong {
-  color: var(--cor-empresahb);
+  color: var(--cor-naomuitobranco);
 }
 
 .faculdade-lista {
