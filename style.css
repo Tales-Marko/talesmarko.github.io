@@ -38,6 +38,7 @@
     --cor-faculdade0: rgb(90, 90, 90);
     --cor-naomuitobranco: rgb(190, 190, 190);
     --cor-container: rgb(72, 70, 70);
+    --cor-footer: rgb(70, 70, 70);
   }
 }
 .experiencia {
@@ -156,6 +157,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   align-items: center;
+  background-color: ;
 }
 
 .footer-texto {
