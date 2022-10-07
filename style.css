@@ -14,7 +14,7 @@
   --cor-body: #141414;
   --cor-formacaotxt: #a3a3a3;
   --cor-header: #bbb7b7;
-  --cor-bodybg: rgb(29, 29, 29);
+  --cor-bodybg: rgb(226, 226, 226);
   --cor-faculdade: #000;
 }
 @media (prefers-color-scheme: dark) {
