@@ -189,6 +189,7 @@
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    background-color: var(--cor-header);
   }
   .footer-contato li {
     font-size: 1.5rem;
