@@ -1,9 +1,9 @@
 :root {
-  --cor-experienciasb: #e0e0e0;
+  --cor-experienciasb: #a5a5a5;
   --cor-experienciatxt: #525252;
   --cor-experienciatxt2: #141414;
-  --cor-empresabg: #f5f5f5;
-  --cor-empresa-ano-texto: #525252;
+  --cor-empresabg: #3b3b3b;
+  --cor-empresa-ano-texto: #000000;
   --cor-empresahb: #ffffff;
   --cor-footer: #000;
   --cor-footer-texto: rgb(230, 230, 230);
@@ -18,36 +18,11 @@
   --cor-faculdade: #000;
   --cor-naomuitobranco: rgb(190, 190, 190);
   --cor-container: rgb(72, 70, 70);
-  --cor-footer: rgb(116, 116, 116);
+  --cor-footer: rgb(0, 0, 0);
   --cor-formacao: rgb(41, 41, 41);
   --cor-contatoli: rgb(216, 216, 216);
 }
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --cor-experienciasb: #1d1d1d;
-    --cor-experienciatxt: #bab8b8;
-    --cor-experienciatxt2: #f0f0f0;
-    --cor-empresabg: #1b1b1b;
-    --cor-empresa-ano-texto: #b1b1b1;
-    --cor-empresahb: #ffffff;
-    --cor-footer: rgb(255, 255, 255);
-    --cor-footer-texto: rgb(230, 230, 230);
-    --cor-footer-contato: rgb(0, 0, 0);
-    --cor-footer-copy: #848484;
-    --cor-gradient1: #b6f829;
-    --cor-gradient2: #67dd0a;
-    --cor-body: #dcdbdb;
-    --cor-formacaotxt: #585757;
-    --cor-header: #000000;
-    --cor-bodybg: rgb(29 29 29);
-    --cor-faculdade0: rgb(90, 90, 90);
-    --cor-naomuitobranco: rgb(190, 190, 190);
-    --cor-container: rgb(72, 70, 70);
-    --cor-footer: rgb(116, 116, 116);
-    --cor-formacao: rgb(37, 37, 37);
-    --cor-contatoli: rgb(31, 31, 31);
-  }
-} */
+
 .experiencia {
   max-width: 1200px;
   padding: 40px 20px;
@@ -488,7 +463,7 @@ img {
   padding: 40px 20px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -496,7 +471,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center;
+  justify-content: end;
 }
 
 .header-menu a {
@@ -513,6 +488,7 @@ img {
     flex-direction: column;
     gap: 40px;
     padding: 20px;
+    justify-content: center;
   }
   .header a {
     background: var(--cor-header);
@@ -580,6 +556,9 @@ img {
   }
   .introducao img {
     display: none;
+  }
+  .header-menu {
+    justify-content: center;
   }
 }
 .a {
